@@ -48,7 +48,8 @@ struct MapSearchScene: View {
                 
                 //Settings Button
                 Button(action: {
-                    print("Hola")
+                
+                    print("Holerwrwra")
                 }, label: {
                     HStack{
                         Text("Filtros")

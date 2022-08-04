@@ -7,18 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D9EE18B66662898600135D8B /* Pods_CAMMP_MAP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C3AC4C6B8A8276DEE4805CE /* Pods_CAMMP_MAP.framework */; };
 		E49DE8BE289C492900FBE3F4 /* CAMMP_MAPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49DE8BD289C492900FBE3F4 /* CAMMP_MAPApp.swift */; };
-		E49DE8C0289C492900FBE3F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49DE8BF289C492900FBE3F4 /* ContentView.swift */; };
+		E49DE8C0289C492900FBE3F4 /*  MapSearchScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49DE8BF289C492900FBE3F4 /*  MapSearchScene.swift */; };
 		E49DE8C2289C492A00FBE3F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E49DE8C1289C492A00FBE3F4 /* Assets.xcassets */; };
 		E49DE8C5289C492A00FBE3F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E49DE8C4289C492A00FBE3F4 /* Preview Assets.xcassets */; };
+		E49DE8CD289C496800FBE3F4 /* MapStyle.json in Resources */ = {isa = PBXBuildFile; fileRef = E49DE8CC289C496800FBE3F4 /* MapStyle.json */; };
+		E49DE8D1289C4F9F00FBE3F4 /* MainMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49DE8D0289C4F9F00FBE3F4 /* MainMapView.swift */; };
+		E49DE8D5289C507C00FBE3F4 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49DE8D4289C507C00FBE3F4 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		44333AF3466E85FE84A37C45 /* Pods-CAMMP-MAP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CAMMP-MAP.debug.xcconfig"; path = "Target Support Files/Pods-CAMMP-MAP/Pods-CAMMP-MAP.debug.xcconfig"; sourceTree = "<group>"; };
+		4C3AC4C6B8A8276DEE4805CE /* Pods_CAMMP_MAP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CAMMP_MAP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB10843536C7814528EF83B6 /* Pods-CAMMP-MAP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CAMMP-MAP.release.xcconfig"; path = "Target Support Files/Pods-CAMMP-MAP/Pods-CAMMP-MAP.release.xcconfig"; sourceTree = "<group>"; };
 		E49DE8BA289C492900FBE3F4 /* CAMMP-MAP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CAMMP-MAP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E49DE8BD289C492900FBE3F4 /* CAMMP_MAPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAMMP_MAPApp.swift; sourceTree = "<group>"; };
-		E49DE8BF289C492900FBE3F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E49DE8BF289C492900FBE3F4 /*  MapSearchScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " MapSearchScene.swift"; sourceTree = "<group>"; };
 		E49DE8C1289C492A00FBE3F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E49DE8C4289C492A00FBE3F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E49DE8CC289C496800FBE3F4 /* MapStyle.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MapStyle.json; sourceTree = "<group>"; };
+		E49DE8D0289C4F9F00FBE3F4 /* MainMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMapView.swift; sourceTree = "<group>"; };
+		E49DE8D2289C4FD100FBE3F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E49DE8D4289C507C00FBE3F4 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9EE18B66662898600135D8B /* Pods_CAMMP_MAP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		919BD6671C17A9434CF9E866 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44333AF3466E85FE84A37C45 /* Pods-CAMMP-MAP.debug.xcconfig */,
+				DB10843536C7814528EF83B6 /* Pods-CAMMP-MAP.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CC59F7AA6DB50E8388741A82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C3AC4C6B8A8276DEE4805CE /* Pods_CAMMP_MAP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E49DE8B1289C492900FBE3F4 = {
 			isa = PBXGroup;
 			children = (
 				E49DE8BC289C492900FBE3F4 /* CAMMP-MAP */,
 				E49DE8BB289C492900FBE3F4 /* Products */,
+				919BD6671C17A9434CF9E866 /* Pods */,
+				CC59F7AA6DB50E8388741A82 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +82,11 @@
 		E49DE8BC289C492900FBE3F4 /* CAMMP-MAP */ = {
 			isa = PBXGroup;
 			children = (
+				E49DE8D3289C506D00FBE3F4 /* Managers */,
+				E49DE8D2289C4FD100FBE3F4 /* Info.plist */,
+				E49DE8CB289C494E00FBE3F4 /* Resources */,
+				E49DE8CE289C49A800FBE3F4 /* Scenes */,
 				E49DE8BD289C492900FBE3F4 /* CAMMP_MAPApp.swift */,
-				E49DE8BF289C492900FBE3F4 /* ContentView.swift */,
 				E49DE8C1289C492A00FBE3F4 /* Assets.xcassets */,
 				E49DE8C3289C492A00FBE3F4 /* Preview Content */,
 			);
@@ -67,6 +101,39 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		E49DE8CB289C494E00FBE3F4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E49DE8CC289C496800FBE3F4 /* MapStyle.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E49DE8CE289C49A800FBE3F4 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				E49DE8CF289C4F6C00FBE3F4 /* Views */,
+				E49DE8BF289C492900FBE3F4 /*  MapSearchScene.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		E49DE8CF289C4F6C00FBE3F4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E49DE8D0289C4F9F00FBE3F4 /* MainMapView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E49DE8D3289C506D00FBE3F4 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				E49DE8D4289C507C00FBE3F4 /* LocationManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +141,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E49DE8C8289C492A00FBE3F4 /* Build configuration list for PBXNativeTarget "CAMMP-MAP" */;
 			buildPhases = (
+				72C4F81E5B03564CE19C5D71 /* [CP] Check Pods Manifest.lock */,
 				E49DE8B6289C492900FBE3F4 /* Sources */,
 				E49DE8B7289C492900FBE3F4 /* Frameworks */,
 				E49DE8B8289C492900FBE3F4 /* Resources */,
+				FF0A6063E51BAC7BDCC643FA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,6 +194,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E49DE8CD289C496800FBE3F4 /* MapStyle.json in Resources */,
 				E49DE8C5289C492A00FBE3F4 /* Preview Assets.xcassets in Resources */,
 				E49DE8C2289C492A00FBE3F4 /* Assets.xcassets in Resources */,
 			);
@@ -132,12 +202,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		72C4F81E5B03564CE19C5D71 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CAMMP-MAP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF0A6063E51BAC7BDCC643FA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CAMMP-MAP/Pods-CAMMP-MAP-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CAMMP-MAP/Pods-CAMMP-MAP-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CAMMP-MAP/Pods-CAMMP-MAP-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E49DE8B6289C492900FBE3F4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E49DE8C0289C492900FBE3F4 /* ContentView.swift in Sources */,
+				E49DE8D5289C507C00FBE3F4 /* LocationManager.swift in Sources */,
+				E49DE8D1289C4F9F00FBE3F4 /* MainMapView.swift in Sources */,
+				E49DE8C0289C492900FBE3F4 /*  MapSearchScene.swift in Sources */,
 				E49DE8BE289C492900FBE3F4 /* CAMMP_MAPApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -195,7 +309,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,7 +363,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -261,6 +375,7 @@
 		};
 		E49DE8C9289C492A00FBE3F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44333AF3466E85FE84A37C45 /* Pods-CAMMP-MAP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -270,11 +385,14 @@
 				DEVELOPMENT_TEAM = P8J2DS2Z2V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CAMMP-MAP/Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = Hola;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -284,12 +402,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		E49DE8CA289C492A00FBE3F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB10843536C7814528EF83B6 /* Pods-CAMMP-MAP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -299,11 +418,14 @@
 				DEVELOPMENT_TEAM = P8J2DS2Z2V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CAMMP-MAP/Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = Hola;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,7 +435,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

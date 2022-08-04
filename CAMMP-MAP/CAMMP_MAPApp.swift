@@ -6,12 +6,20 @@
 //
 
 import SwiftUI
+import GoogleMaps
 
 @main
 struct CAMMP_MAPApp: App {
+    
+    init() {
+        GMSServices.provideAPIKey("AIzaSyC4GzphA8Kte4X0NHGPjXABolExyjEiDTs")
+    }
+    
+    
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MapSearchScene()
         }
     }
 }

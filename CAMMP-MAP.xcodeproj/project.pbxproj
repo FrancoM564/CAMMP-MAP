@@ -15,6 +15,8 @@
 		E49DE8CD289C496800FBE3F4 /* MapStyle.json in Resources */ = {isa = PBXBuildFile; fileRef = E49DE8CC289C496800FBE3F4 /* MapStyle.json */; };
 		E49DE8D1289C4F9F00FBE3F4 /* MainMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49DE8D0289C4F9F00FBE3F4 /* MainMapView.swift */; };
 		E49DE8D5289C507C00FBE3F4 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49DE8D4289C507C00FBE3F4 /* LocationManager.swift */; };
+		E49DE8D7289C5F0600FBE3F4 /* PruebaText.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49DE8D6289C5F0600FBE3F4 /* PruebaText.swift */; };
+		E49DE8D9289C653100FBE3F4 /* SettingsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49DE8D8289C653100FBE3F4 /* SettingsButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		E49DE8D0289C4F9F00FBE3F4 /* MainMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMapView.swift; sourceTree = "<group>"; };
 		E49DE8D2289C4FD100FBE3F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		E49DE8D4289C507C00FBE3F4 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		E49DE8D6289C5F0600FBE3F4 /* PruebaText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PruebaText.swift; sourceTree = "<group>"; };
+		E49DE8D8289C653100FBE3F4 /* SettingsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +126,8 @@
 			isa = PBXGroup;
 			children = (
 				E49DE8D0289C4F9F00FBE3F4 /* MainMapView.swift */,
+				E49DE8D6289C5F0600FBE3F4 /* PruebaText.swift */,
+				E49DE8D8289C653100FBE3F4 /* SettingsButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -253,6 +259,8 @@
 				E49DE8D1289C4F9F00FBE3F4 /* MainMapView.swift in Sources */,
 				E49DE8C0289C492900FBE3F4 /*  MapSearchScene.swift in Sources */,
 				E49DE8BE289C492900FBE3F4 /* CAMMP_MAPApp.swift in Sources */,
+				E49DE8D9289C653100FBE3F4 /* SettingsButton.swift in Sources */,
+				E49DE8D7289C5F0600FBE3F4 /* PruebaText.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,6 @@
+framework module Pods_CAMMP_MAP {
+  umbrella header "Pods-CAMMP-MAP-umbrella.h"
+
+  export *
+  module * { export * }
+}

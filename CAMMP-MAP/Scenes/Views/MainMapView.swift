@@ -19,6 +19,8 @@ struct MainMapView: UIViewRepresentable{
         
         func mapView(_ mapView: GMSMapView, didTap marker: GMSMarker) -> Bool {
             owner.markerNow = marker
+            print(marker.position.longitude)
+            print(marker.position.latitude)
             owner.markerTapped = true
             return true
         }

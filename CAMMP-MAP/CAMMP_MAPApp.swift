@@ -12,7 +12,7 @@ import GoogleMaps
 struct CAMMP_MAPApp: App {
     
     init() {
-        GMSServices.provideAPIKey("AIzaSyC4GzphA8Kte4X0NHGPjXABolExyjEiDTs")
+        GMSServices.provideAPIKey("")
     }
     
     

@@ -12,7 +12,7 @@ import GoogleMaps
 struct CAMMP_MAPApp: App {
     
     init() {
-        GMSServices.provideAPIKey("")
+        GMSServices.provideAPIKey("AIzaSyC4GzphA8Kte4X0NHGPjXABolExyjEiDTs")
     }
     
     
@@ -20,6 +20,8 @@ struct CAMMP_MAPApp: App {
     var body: some Scene {
         WindowGroup {
             MapSearchScene()
+                
+            
         }
     }
 }
